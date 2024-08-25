@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #161c2d;
   box-sizing: border-box;
 }
@@ -158,3 +158,32 @@ img {
 }
 
 /* GETTING STARTED */
+.gs-1 {
+  background-color: #f4f7fa;
+}
+.gs-2 {
+  display: flex;
+  width: 73%;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  align-items: center;
+  justify-content: space-between;
+}
+.gs-content {
+  flex-basis: 410px;
+  margin-left: 0;
+}
+.gs-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.gs-text {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.gs-img {
+  flex-basis: 514px;
+  height: 450px;
+  margin: 100px 0;
+}
