@@ -137,7 +137,7 @@ img {
   display: inline-block;
   margin-bottom: 20px;
 }
-.feature-heading {
+.sub-section {
   font-size: 21px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -173,7 +173,7 @@ img {
   flex-basis: 410px;
   margin-left: 0;
 }
-.gs-heading {
+.section-heading {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 24px;
