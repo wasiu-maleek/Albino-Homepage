@@ -9,7 +9,7 @@
 }
 
 .content-container {
-  width: 100%;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -18,7 +18,7 @@
 .footer-logo {
   font-size: 32px;
   font-weight: 900;
-  margin-left: 13%;
+  margin-left: 120px;
 }
 
 a:link,
@@ -46,7 +46,7 @@ a:hover,
   font-weight: 500;
   height: 40px;
   line-height: 1.2;
-  margin-right: 13%;
+  margin-right: 120px;
 }
 
 .nav-btn:hover,
@@ -126,7 +126,7 @@ a:hover,
 
 img {
   display: block;
-  width: 73%;
+  width: auto;
   height: auto;
   margin: 0 auto 48px;
 }
@@ -134,7 +134,7 @@ img {
 /* UNIQUE PROPOSITIONS */
 .features {
   display: flex;
-  width: 73%;
+  width: 80%;
   margin: 0 auto;
   margin-bottom: 48px;
   align-items: center;
@@ -142,14 +142,16 @@ img {
 }
 
 .feature {
-  width: 28%;
+  width: 26%;
 }
+
 .feature-icon {
   height: 37px;
   width: 37px;
   display: inline-block;
   margin-bottom: 20px;
 }
+
 .sub-section,
 .faq-heading {
   font-size: 21px;
@@ -168,7 +170,7 @@ img {
 }
 .gs-2 {
   display: flex;
-  width: 73%;
+  width: 80%;
   margin: 0 auto;
   margin-bottom: 48px;
   align-items: center;
@@ -210,14 +212,14 @@ img {
   align-items: center;
   justify-content: space-between;
   flex-basis: 290px;
-  gap: 26px;
+  gap: 14px;
 }
 
 .stats {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 73%;
+  width: 80%;
   margin: 96px auto;
 }
 
@@ -249,7 +251,7 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 100px;
-  width: 73%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -318,7 +320,7 @@ img {
   align-items: flex-start;
   justify-content: space-between;
   gap: 32px;
-  width: 73%;
+  width: 80%;
   margin: 0 auto;
   margin-bottom: 100px;
 }
@@ -328,7 +330,7 @@ img {
   flex-direction: column;
   background-color: white;
   padding-bottom: 14px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .pricing-level {
@@ -348,6 +350,10 @@ img {
   margin-bottom: 24px;
 }
 
+.ptext-2 {
+  margin-right: 12px;
+  margin-left: 12px;
+}
 .pricing-btn {
   margin: 0 16px;
 }
@@ -355,7 +361,7 @@ img {
 .faqs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 73%;
+  width: 80%;
   gap: 32px;
   margin: 64px auto;
 }
@@ -363,14 +369,14 @@ img {
 .faq {
   display: flex;
   align-items: flex-start;
-  gap: 32px;
+  gap: 16px;
 }
 .que-mark {
   background-color: #68d585;
   font-size: 17px;
   font-weight: bolder;
   color: white;
-  border-radius: 30px;
+  border-radius: 100px;
   padding: 12px 18px;
   margin-top: 6px;
 }
@@ -394,7 +400,7 @@ img {
 
 .cta,
 footer {
-  width: 73%;
+  width: 80%;
   margin: 80px auto;
   display: flex;
   align-items: flex-start;
@@ -433,7 +439,7 @@ footer {
 
 /* FOOTER */
 footer {
-  gap: 40px;
+  gap: 24px;
 }
 .footer-logo {
   margin: 0 0 32px;
@@ -463,5 +469,5 @@ li {
 
 li:first-child {
   margin-left: 16px;
-  color: #aaafbd;
+  color: #6e6e6e;
 }
