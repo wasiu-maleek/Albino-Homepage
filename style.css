@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "poppins", sans-serif;
   color: #161c2d;
   box-sizing: border-box;
 }
@@ -165,6 +165,7 @@ img {
 }
 
 /* GETTING STARTED */
+
 .gs-1 {
   background-color: #f4f7fa;
 }
