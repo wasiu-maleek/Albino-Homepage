@@ -4,30 +4,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #161c2d;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 body {
+  font-size: 1.6rem;
   font-family: "poppins", sans-serif;
   color: #161c2d;
 }
 
 .content-container {
-  width: 1200px;
+  width: 120rem;
   margin: 0 auto;
 }
 
 /* NAVIGATION BAR */
 .logo,
 .footer-logo {
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 900;
-  margin-left: 120px;
+  margin-left: 12rem;
 }
 
 a:link,
 a:visited {
-  padding: 0 16px;
+  padding: 0 1.6rem;
   text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 a:active,
@@ -35,29 +43,32 @@ a:hover,
 .active {
   text-decoration: underline;
   color: blue;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .nav-btn,
 .pricing-btn {
-  padding: 0 18px;
-  border: 2px solid;
+  padding: 0 1.8rem;
+  border: 2px solid #0000ff;
   border-radius: 8px;
   background-color: blue;
   color: white;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 500;
-  height: 40px;
+  height: 4rem;
   line-height: 1.2;
-  margin-right: 120px;
+  margin-right: 12rem;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
 .nav-btn:hover,
 .pricing-btn:hover {
-  background-color: rgb(233, 233, 255);
-  border: 2px solid blue;
-  border-radius: 8px;
+  background-color: #e9e9ff;
+  border: 2px solid #0000ff;
+  border-radius: 0.8rem;
   color: blue;
+  box-shadow: inset 0 0 0 0.1px #0000ff;
 }
 
 .nav-bar {
@@ -65,7 +76,7 @@ a:hover,
   align-items: center;
   justify-content: space-between;
   background-color: rgb(252, 252, 255);
-  height: 60px;
+  height: 6rem;
   width: 100%;
   position: fixed;
   top: 0;
@@ -74,96 +85,98 @@ a:hover,
 /* HERO SECTION */
 
 .display {
-  font-size: 44px;
+  font-size: 4.4rem;
   line-height: 1.25;
-  margin: 98px auto 16px auto;
+  margin: 9.8rem auto 1.6rem;
   text-align: center;
-  max-width: 700px;
+  max-width: 70rem;
 }
 
 .supporting-text,
 .p-supporting-text {
-  font-size: 18px;
+  font-size: 1.8rem;
   text-align: center;
-  margin-bottom: 48px;
-  margin: 0px auto 48px auto;
-  max-width: 600px;
+  margin: 0px auto 4.8rem;
+  max-width: 60rem;
+}
+
+.button {
+  width: 41.7rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-1,
+.btn-2 {
+  font-size: 1.6rem;
+  margin: 0 auto 4.8rem;
+  border-radius: 1.2rem;
+  cursor: pointer;
+  padding: 1.2rem 2.4rem;
 }
 
 .btn-1 {
-  padding: 14px 32px;
-  border: 2px solid;
-  border-radius: 12px;
   background-color: blue;
   color: white;
-  font-size: 16px;
   font-weight: 500;
-  margin: 0 auto 48px;
+  border: 2px solid #0000ff;
+  transition: all 0.3s;
+}
+
+.btn-2 {
+  border: none;
+  background-color: white;
+  font-weight: 600;
 }
 
 .btn-1:hover,
 .cta-btn-2:hover {
   background-color: rgb(233, 233, 255);
   border: 2px solid blue;
-  border-radius: 12px;
+  border-radius: 1.2rem;
   color: blue;
-}
-
-.btn-2 {
-  padding: 14px 32px;
-  border: none;
-  border-radius: 12px;
-  background-color: white;
-  font-size: 16px;
-  font-weight: 600;
-  margin: 0 auto 48px;
-}
-
-.button {
-  width: 417px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  box-shadow: inset 0 0 0 0.1px #0000ff;
 }
 
 img {
   display: block;
   width: auto;
   height: auto;
-  margin: 0 auto 48px;
+  margin: 0 auto 4.8rem;
 }
 
 /* UNIQUE PROPOSITIONS */
-.features {
+.container {
   display: flex;
   width: 80%;
   margin: 0 auto;
-  margin-bottom: 48px;
+  margin-bottom: 4.8rem;
   align-items: center;
   justify-content: space-between;
 }
 
 .feature {
-  width: 26%;
+  width: 28%;
 }
 
 .feature-icon {
-  height: 37px;
-  width: 37px;
+  height: 3.7rem;
+  width: 3.7rem;
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .sub-section,
 .faq-heading {
-  font-size: 21px;
+  font-size: 2.1rem;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .feature-p,
 .p-feature-p {
-  font-size: 15px;
+  font-size: 1.5rem;
   color: #5b606c;
 }
 
@@ -172,53 +185,46 @@ img {
 .getting-started,
 .review-container {
   background-color: #f4f7fa;
-  max-width: 100%;
 }
-.gs {
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-  margin-bottom: 48px;
-  align-items: center;
-  justify-content: space-between;
-}
+
 .gs-content {
-  flex-basis: 410px;
+  flex-basis: 41.5rem;
   margin-left: 0;
 }
 .section-heading {
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 700;
-  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
 }
 .gs-text {
-  font-size: 18px;
-  margin-bottom: 40px;
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
 }
 .gs-img {
-  flex-basis: 514px;
-  height: 450px;
-  margin: 100px 0;
+  flex-basis: 51.4rem;
+  height: 45rem;
+  margin: 10rem 0;
 }
 
 /* STATISTICS */
 .stat-value {
-  font-size: 48px;
+  font-size: 4.8rem;
   font-weight: bolder;
   color: #161c2d;
+  text-align: center;
 }
 
 .stat-text {
-  font-size: 17px;
+  font-size: 1.7rem;
   color: #5b606c;
 }
 
 .stat {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-basis: 290px;
-  gap: 14px;
+  justify-content: center;
+  flex-basis: 29rem;
+  gap: 1.4rem;
 }
 
 .stats {
@@ -226,37 +232,39 @@ img {
   align-items: center;
   justify-content: space-between;
   width: 80%;
-  margin: 96px auto;
+  margin: 9.6rem auto;
 }
 
 /* MANAGE */
 .manage-heading,
 .pricing-heading {
-  font-size: 32px;
+  font-size: 3.2rem;
   text-align: center;
   font-weight: 700;
-  margin-bottom: 14px;
+  margin-bottom: 1.4rem;
 }
 
-.manage-number {
-  font-size: 17px;
+.manage-number,
+.que-mark {
+  font-size: 1.7rem;
+  font-weight: bolder;
   color: #473bf0;
   background-color: #eaeafd;
-  border-radius: 30px;
-  padding: 12px 18px;
+  border-radius: 50%;
+  padding: 1.2rem 2.1rem;
   margin-top: 6px;
 }
 
 .manage-sub-section {
-  font-size: 21px;
+  font-size: 2.1rem;
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
 }
 .manage-1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 100px;
+  gap: 10rem;
   width: 80%;
   margin: 0 auto;
 }
@@ -265,25 +273,27 @@ img {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 22px;
-  margin-bottom: 30px;
+  gap: 2.2rem;
+  margin-bottom: 3rem;
 }
 
 /* REVIEWS */
 .reviews {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
   width: 60%;
-  margin: 0 auto;
-  gap: 60px;
-  padding: 100px 0;
+  gap: 6rem;
+  padding: 10rem 0;
 }
 
+.review {
+  flex-basis: 30rem;
+}
 .review-img {
-  width: 72px;
-  height: 72px;
-  margin-bottom: 24px;
+  width: 7.2;
+  height: 7.2rem;
+  margin-bottom: 2.4rem;
 }
 
 .review-heading,
@@ -291,20 +301,17 @@ img {
 .reviewer,
 .review-occupation {
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
 }
 
 .reviewer {
   margin-bottom: 4px;
 }
-.review {
-  flex-basis: 300px;
-}
 
 /* PRICING */
 .pricing-container {
   background-color: #161c2d;
-  padding: 48px 0;
+  padding: 4.8rem 0;
 }
 
 .pricing-heading,
@@ -321,66 +328,60 @@ img {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 32px;
+  gap: 3.2rem;
   width: 80%;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 10rem;
 }
 
 .pricing-card {
   display: flex;
   flex-direction: column;
   background-color: white;
-  padding-bottom: 14px;
-  border-radius: 8px;
+  padding-bottom: 1.4rem;
+  border-radius: 0.8rem;
 }
 
 .pricing-level {
-  font-size: 17px;
+  font-size: 1.7rem;
   font-weight: bold;
   color: #473bf0;
   background-color: #eaeafd;
-  border-radius: 30px;
-  padding: 12px 24px;
-  margin: 24px auto;
+  border-radius: 3rem;
+  padding: 1.2rem 2.4rem;
+  margin: 2.4rem auto;
 }
 
 .ptext-1,
-.ptext-2,
-.stat-value {
+.ptext-2 {
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
 }
 
 .ptext-2 {
-  margin-right: 12px;
-  margin-left: 12px;
+  margin-right: 1.2rem;
+  margin-left: 1.2rem;
 }
 .pricing-btn {
-  margin: 0 16px;
+  margin: 0 1.6rem;
 }
 
 .faqs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 80%;
-  gap: 32px;
-  margin: 64px auto;
+  gap: 3.2rem;
+  margin: 6.4rem auto;
 }
 
 .faq {
   display: flex;
   align-items: flex-start;
-  gap: 16px;
+  gap: 1.6rem;
 }
 .que-mark {
   background-color: #68d585;
-  font-size: 17px;
-  font-weight: bolder;
   color: white;
-  border-radius: 100px;
-  padding: 12px 18px;
-  margin-top: 6px;
 }
 
 .support {
@@ -403,20 +404,20 @@ img {
 .cta,
 footer {
   width: 80%;
-  margin: 80px auto;
+  margin: 8rem auto;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
 
 .cta-supporting-text {
-  font-size: 18px;
+  font-size: 1.8rem;
   text-align: left;
-  max-width: 500px;
+  max-width: 50rem;
 }
 
 .cta-btn {
-  width: 340px;
+  width: 34rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -424,16 +425,20 @@ footer {
 
 .cta-btn-1,
 .cta-btn-2 {
-  padding: 14px 28px;
-  border: none;
-  border-radius: 12px;
+  padding: 1.4rem 2.8rem;
+  border: 2px solid #0000ff;
+  border-radius: 1.2rem;
   background-color: #eeedfd;
   color: blue;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 500;
   margin: 0;
+  cursor: pointer;
+  transition: all 0.3s;
 }
-
+.cta-btn-1 {
+  border: none;
+}
 .cta-btn-2 {
   background-color: blue;
   color: white;
@@ -441,35 +446,35 @@ footer {
 
 /* FOOTER */
 footer {
-  gap: 24px;
+  gap: 2.4rem;
 }
 .footer-logo {
-  margin: 0 0 32px;
+  margin: 0 0 3.2rem;
 }
 
 .socials {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 24px;
-  margin-top: 32px;
+  gap: 2.4rem;
+  margin-top: 3.2rem;
 }
 
 .social-logo {
-  width: 19px;
-  height: 19px;
+  width: 1.9rem;
+  height: 1.9rem;
   margin: 0;
 }
 
 .footer-content-1 {
-  flex-basis: 260px;
+  flex-basis: 26rem;
 }
 li {
   list-style: none;
-  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
 }
 
 li:first-child {
-  margin-left: 16px;
+  margin-left: 1.6rem;
   color: #6e6e6e;
 }
