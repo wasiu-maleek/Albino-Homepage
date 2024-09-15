@@ -226,6 +226,7 @@ img {
   flex-basis: 41.5rem;
   margin-left: 0;
 }
+
 .section-heading {
   font-size: 3.2rem;
   font-weight: 700;
@@ -423,9 +424,10 @@ img {
   display: flex;
   align-items: center;
   justify-items: center;
-  margin: 48px auto 0;
+  margin: 4.8rem auto 0;
   grid-column: 1/-1;
 }
+
 .faq-link {
   color: #68d585;
 }

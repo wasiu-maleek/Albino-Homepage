@@ -236,13 +236,12 @@
   }
 }
 
-@media (max-with: 48em) {
+@media (max-width: 48em) {
   html {
     font-size: 43.75%;
   }
-
   .content-container {
-    width: 54rem;
+    width: 57.6rem;
     margin: 0 auto;
   }
 
@@ -250,6 +249,7 @@
   .supporting-text {
     max-width: 50rem;
   }
+
   img {
     display: block;
     width: 100%;
@@ -258,6 +258,130 @@
   }
 
   .container {
-    width: 60%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4.8rem;
+    column-gap: 3.2rem;
+  }
+
+  .feature {
+    width: 100%;
+  }
+
+  .getting-started .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+    margin-top: 6.4rem;
+  }
+
+  .section-heading {
+    font-size: 2.8rem;
+    margin: 0 auto;
+  }
+
+  .gs-text {
+    margin: 2rem auto 4rem;
+  }
+
+  .section-heading,
+  .gs-text {
+    text-align: center;
+    max-width: 40rem;
+  }
+
+  .btn-1 {
+    font-size: 1.4rem;
+    margin: 0 auto 4.8rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    display: block;
+  }
+
+  .gs-img,
+  .manage-image {
+    width: 45rem;
+    height: auto;
+    margin: 0;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .stats {
+    width: 100%;
+    gap: 2.4rem;
+  }
+  .stat {
+    flex-direction: column;
+    flex-basis: auto;
+    align-items: flex-start;
+  }
+
+  .stat-value {
+    font-size: 3.2rem;
+  }
+
+  .processes {
+    flex-direction: column;
+  }
+  .reviews {
+    width: 75%;
+  }
+
+  .review:last-child {
+    display: none;
+  }
+
+  .pricing-cards {
+    justify-content: center;
+    gap: 1.2rem;
+    width: 100%;
+  }
+
+  .pricing-level {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    margin: 2rem auto;
+  }
+  .ptext-1,
+  .ptext-2 {
+    margin-bottom: 2rem;
+  }
+  .pricing-btn {
+    font-size: 1.2rem;
+    border-radius: 0.6rem;
+    margin: 0 1.4rem;
+  }
+
+  .faqs {
+    width: 100%;
+    gap: 3.2rem;
+    row-gap: 6.4rem;
+    margin: 6.4rem auto;
+  }
+
+  .cta,
+  footer {
+    width: 100%;
+  }
+
+  .cta {
+    flex-direction: column;
+  }
+  .cta-text .section-heading {
+    margin-bottom: 1.2rem;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .footer-content:nth-child(5) {
+    grid-column: 3 / -1;
+  }
+
+  .footer-content:nth-child(4) {
+    grid-column: 2;
   }
 }
