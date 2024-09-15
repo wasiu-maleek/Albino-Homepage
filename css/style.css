@@ -9,12 +9,14 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
   font-size: 1.6rem;
   font-family: "poppins", sans-serif;
   color: #161c2d;
+  overflow-x: hidden;
 }
 
 .content-container {
@@ -22,12 +24,28 @@ body {
   margin: 0 auto;
 }
 
+.mobile-menu {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-menu-icon {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #222222;
+}
+
+.mobile-menu-icon[name="close-outline"] {
+  display: none;
+}
+
 /* NAVIGATION BAR */
 .logo,
 .footer-logo {
   font-size: 3.2rem;
   font-weight: 900;
-  margin-left: 12rem;
 }
 
 a:link,
@@ -57,7 +75,6 @@ a:hover,
   font-weight: 500;
   height: 4rem;
   line-height: 1.2;
-  margin-right: 12rem;
   transition: all 0.3s;
   cursor: pointer;
 }
@@ -71,15 +88,30 @@ a:hover,
   box-shadow: inset 0 0 0 0.1px #0000ff;
 }
 
+.header {
+  background-color: #fcfcff;
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+}
+
 .nav-bar {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+  width: 80%;
+}
+
+.main-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(252, 252, 255);
-  height: 6rem;
-  width: 100%;
-  position: fixed;
-  top: 0;
 }
 
 /* HERO SECTION */
@@ -185,6 +217,9 @@ img {
 .getting-started,
 .review-container {
   background-color: #f4f7fa;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .gs-content {
