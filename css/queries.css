@@ -507,8 +507,13 @@
   .stat-text {
     font-size: 1.4rem;
   }
+
   .manage-image {
     width: 30rem;
+  }
+
+  .processes {
+    grid-template-columns: 1fr;
   }
 
   .manage-number {
@@ -522,11 +527,28 @@
     width: 30%;
   }
 
+  .reviews {
+    width: 90%;
+    gap: 1rm;
+    overflow: scroll;
+  }
+
+  .review:nth-child(2) {
+    display: none;
+  }
+
   .review-p,
   .reviewer,
   .review-occupation {
     font-size: 1.4rem;
   }
+
+  .pricing-cards {
+    flex-direction: column;
+    gap: 2.4rem;
+    max-width: 80%;
+  }
+
   .faqs {
     grid-template-columns: 1fr;
   }
@@ -535,6 +557,7 @@
     justify-self: flex-start;
     margin: 0;
   }
+
   .p-feature-p {
     font-size: 1.4rem;
   }
