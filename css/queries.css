@@ -579,4 +579,8 @@
   .footer-link:link {
     padding: 0;
   }
+
+  li:first-child {
+    margin-left: 0;
+  }
 }
