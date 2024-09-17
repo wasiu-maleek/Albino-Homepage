@@ -241,9 +241,9 @@
 }
 
 @media (max-width: 48em) {
-  html {
+  /* html {
     font-size: 43.75%;
-  }
+  } */
   .content-container {
     width: 80%;
     margin: 0 auto;
@@ -418,9 +418,9 @@
 }
 
 @media (max-width: 36em) {
-  html {
+  /* html {
     font-size: 37.5%;
-  }
+  } */
   .content-container {
     width: 90%;
     margin: 0 auto;
