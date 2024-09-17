@@ -523,39 +523,34 @@
   .content-container.reviews {
     padding: 4.8rem 0;
   }
+
   .review-img {
     width: 30%;
   }
 
   .reviews {
-    width: 90%;
-    gap: 1rm;
-    overflow: scroll;
+    margin-left: 4%;
   }
 
-  .review:nth-child(2) {
-    display: none;
+  .reviews,
+  .pricing-cards {
+    display: grid;
+    grid-template-columns: 25rem 25rem 25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    width: 100vh;
+    overflow-x: auto;
+  }
+
+  .review:nth-child(3) {
+    display: inline;
   }
 
   .review-p,
   .reviewer,
   .review-occupation {
     font-size: 1.4rem;
-  }
-
-  .pricing-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 1.6rem;
-    max-width: 100%;
-  }
-
-  .pricing-card:last-child {
-    grid-column: 1 / -1;
-    align-self: center;
-    justify-self: center;
-    width: 48%;
   }
 
   .faqs {
