@@ -544,13 +544,18 @@
   }
 
   .pricing-cards {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 2.4rem;
-    max-width: 80%;
+    gap: 1.6rem;
+    max-width: 100%;
   }
-  .pricing-card {
-    width: 65%;
+
+  .pricing-card:last-child {
+    grid-column: 1 / -1;
+    align-self: center;
+    justify-self: center;
+    width: 48%;
   }
 
   .faqs {
