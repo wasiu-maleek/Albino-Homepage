@@ -42,6 +42,7 @@
     background: none;
     cursor: pointer;
     display: block;
+    z-index: 1;
   }
 
   .nav-bar {
@@ -91,9 +92,9 @@
     display: block;
   }
 
-  /* .mobile-menu-icon[name="menu-outline"] {
+  .nav-open .mobile-menu-icon[name="menu-outline"] {
     display: none;
-  } */
+  }
 
   a:link,
   a:visited {
@@ -429,6 +430,9 @@
   .header {
     height: 8rem;
   }
+  .nav-btn {
+    width: 90%;
+  }
 
   .display {
     font-size: 3rem;
@@ -539,6 +543,7 @@
     justify-content: center;
     align-items: center;
     gap: 1.2rem;
+    white-space: nowrap;
     width: 100vh;
     overflow-x: auto;
   }
