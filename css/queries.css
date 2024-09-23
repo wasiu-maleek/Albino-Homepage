@@ -566,7 +566,7 @@
   }
 
   .pricing-btn {
-    height: 5rem;
+    min-height: 5rem;
     padding-bottom: 0;
   }
 
