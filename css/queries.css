@@ -542,8 +542,32 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
     gap: 2.4rem;
+  }
+
+  .pricing-card {
+    width: 95%;
+    height: 32rem;
+    margin-bottom: 0;
+  }
+
+  .pricing-level,
+  .stat-value {
+    font-size: 2rem;
+  }
+
+  .ptext-1,
+  .ptext-2 {
+    font-size: 1.6rem;
+  }
+
+  .ptext-2 {
+    margin-bottom: 3.2rem;
+  }
+
+  .pricing-btn {
+    height: 5rem;
+    padding-bottom: 0;
   }
 
   .review:nth-child(3),
