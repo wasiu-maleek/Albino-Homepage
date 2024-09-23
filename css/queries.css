@@ -542,13 +542,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.2rem;
+    width: 80%;
+    gap: 2.4rem;
   }
 
-  .review:nth-child(3) {
-    display: none;
-  }
-
+  .review:nth-child(3),
   .review:nth-child(2) {
     display: none;
   }
